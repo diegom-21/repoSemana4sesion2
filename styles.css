@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    color: white !important;
+    height: 150px;
+    background-color: #0165fe;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espacio entre las columnas */
+}
+
+.seccion1{
+    margin-top: 80px;
+    font-weight: bold !important;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.seccion2 {
+    display: flex;
+    justify-content: center;
+}
+
+.seccion2 > div {
+    flex: 1;
+    max-width: 200px; /* Ancho máximo de cada div */
+    margin: 0 10px; /* Espacio entre los divs */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc; /* Borde para simular una tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+
+}
+
+.seccion2 > div > h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.seccion3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas */
+    gap: 30px; /* Espacio entre los divs */
+}
+
+.seccion3 > div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    max-width: 210px; /* Ancho maximo de cada div */
+    border: 1px solid #ccc; /* Borde para tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+}
+
+
+.seccion3 > div > h1 {
+    font-weight: bold !important;
+}
